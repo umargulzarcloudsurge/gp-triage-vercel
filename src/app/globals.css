@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+body{
+    background-color:rgb(241 244 250 ) !important;
+    font-family: 'Roboto', sans-serif !important;
+} 
+.ant-model {
+    /* overflow: hidden !important; */
+}
+
+.bg-modal{
+  background: url('../../public/images/modal-bg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.ant-modal-content{
+    position: none !important;
+    background-color: transparent !important;
+    background-clip: none !important;
+    border: 0;
+    border-radius: none !important;
+    box-shadow:none !important;
+    pointer-events: auto;
+     height: 80vh;
+    overflow-x: hidden;
+    /* padding: 0px !important; */
+}
+.ant-modal{
+    top:50px !important;
+}
+.ant-modal-header{
+    background-color: transparent !important;
+}
+.ant-tabs-tab{
+    height: 55px !important;
+    font-weight: normal !important;
+    background: #D5EDF4 !important;
+    border: none !important;
+}
+.ant-tabs-tab-active{
+    background: #fff !important;
+}
+.ant-tabs-tab-btn{
+    font-weight: 500 !important;
+}
+.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #0E72B7 !important;
+}
+
+.ant-tabs-nav{
+    
+border-bottom: 1px solid #D5EDF4;
+    margin-right: 20px !important;
+
+}   
+.ant-pagination-options-size-changer{
+    display: none;
+} 
+.ant-pagination{
+    text-align: right;
+}
+#pswd_info {
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    padding: 15px;
+    margin-top: 75px;
+    background: #fefefe;
+    font-size: .875em;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 1px 3px #ccc; */
+    /* border: 1px solid #ddd; */
+    /* font-family: sans-serif; */
+}
+.pswd_info_ul {
+    padding-left: 10px;
+    margin-bottom: 0px !important;
+}
+.valid {
+    background: url('../../public/images/valid.png') no-repeat 0 50%;
+    padding-left: 22px;
+    line-height: 24px;
+    color: #3a7d34;
+}
+.invalid {
+    background: url('../../public//images/invalid.png') no-repeat 0 50%;
+    padding-left: 22px;
+    line-height: 24px;
+    color: #ec3f41;
+}
+#pswd_info::before {
+    content: "\25B2";
+    position: absolute;
+    top: -12px;
+    left: 45%;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    text-shadow: none;
+    display: block;
+}
+

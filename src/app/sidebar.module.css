@@ -1,0 +1,32 @@
+/* Specific styles for non-active links */
+.nonActive {
+    color: rgb(107 114 128);
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  /* Specific styles for active links */
+  .active {
+    color: #0E72B7 !important;
+    font-size: 15px;
+    font-weight: 500;
+    /* background: orange; */
+  }
+  .iconActive{
+    background-color:rgb(209 213 219);
+    padding-left: 24px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+    
+  }
+  .iconnonActive{
+    padding-left: 24px;
+    
+  }
+ .iconsvgActive {
+  fill:#0E72B7;
+
+}
+ 
